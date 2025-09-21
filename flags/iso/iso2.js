@@ -4,7 +4,7 @@ export const slugsISO2 = {
   "albania": "al",
   "alemanha": "de",
   "angola": "ao",
-  "anguilla": "ai",
+  "anguila": "ai",
   "antigua-e-barbuda": "ag",
   "argentina": "ar",
   "argelia": "dz",

@@ -4,7 +4,7 @@ export const slugsNomeOficial = {
   "albania": "Albânia",
   "alemanha": "Alemanha",
   "angola": "Angola",
-  "anguilla": "Anguilla",
+  "anguilla": "Anguila",
   "antigua-e-barbuda": "Antígua e Barbuda",
   "argentina": "Argentina",
   "argelia": "Argélia",
