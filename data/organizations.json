@@ -1,50 +1,50 @@
 [
   {
-    "name": "Albanian Evangelical Mission",
-    "url": "https://aemission.org/",
-    "logo": "https://orepelasnacoes.github.io/ministerios/albanian-evangelical-mission.jpg",
-    "countries": ["Albânia"]
+    "name": "Barnabas Aid",
+    "url": "https://www.barnabasaid.org/us/",
+    "logo": "https://orepelasnacoes.github.io/ministerios/barnabas-aid.jpg",
+    "countries": ["Afeganistão"]
   },
   {
-    "name": "Josiah Venture",
-    "url": "https://www.josiahventure.com/",
-    "logo": "https://orepelasnacoes.github.io/ministerios/josiah-venture.jpg",
-    "countries": ["Albânia"]
+    "name": "Lumens of Truth",
+    "url": "https://www.lumensoftruth.org/",
+    "logo": "https://orepelasnacoes.github.io/ministerios/lumens-of-truth.jpg",
+    "countries": ["Afeganistão"]
+  },
+  {
+    "name": "Mission Cry",
+    "url": "https://missioncry.com/",
+    "logo": "https://orepelasnacoes.github.io/ministerios/mission-cry.jpg",
+    "countries": ["Afeganistão"]
+  },
+  {
+    "name": "Frontiers",
+    "url": "https://frontiersusa.org/",
+    "logo": "https://orepelasnacoes.github.io/ministerios/frontiers.jpg",
+    "countries": ["Afeganistão"]
   },
   {
     "name": "Operation Mobilization",
     "url": "https://om.org/",
     "logo": "https://orepelasnacoes.github.io/ministerios/operation-mobilization.jpg",
-    "countries": ["Albânia"]
+    "countries": ["Afeganistão"]
   },
   {
-    "name": "YWAM Albania",
-    "url": "https://ywamalbania.com/",
-    "logo": "https://orepelasnacoes.github.io/ministerios/ywam-albania.jpg",
-    "countries": ["Albânia"]
+    "name": "The Voice of the Martyrs",
+    "url": "https://www.persecution.com/",
+    "logo": "https://orepelasnacoes.github.io/ministerios/voice-of-martyrs.jpg",
+    "countries": ["Afeganistão"]
   },
   {
-    "name": "Thrive Missions",
-    "url": "https://www.thrivemissions.org/",
-    "logo": "https://orepelasnacoes.github.io/ministerios/thrive-missions.jpg",
-    "countries": ["Albânia"]
+    "name": "Portas Abertas",
+    "url": "https://www.portasabertas.org.br/",
+    "logo": "https://orepelasnacoes.github.io/ministerios/portas-abertas.jpg",
+    "countries": ["Afeganistão"]
   },
   {
-    "name": "Liebenzeller Mission",
-    "url": "https://www.liebenzell.org/",
-    "logo": "https://orepelasnacoes.github.io/ministerios/liebenzeller-mission.jpg",
-    "countries": ["Albânia"]
-  },
-  {
-    "name": "WEC International",
-    "url": "https://www.wecinternational.org/",
-    "logo": "https://orepelasnacoes.github.io/ministerios/wec-international.jpg",
-    "countries": ["Albânia"]
-  },
-  {
-    "name": "European Christian Mission",
-    "url": "https://www.ecmi.org/",
-    "logo": "https://orepelasnacoes.github.io/ministerios/european-christian-mission.jpg",
-    "countries": ["Albânia"]
+    "name": "Christian Aid Mission",
+    "url": "https://www.christianaid.org/",
+    "logo": "https://orepelasnacoes.github.io/ministerios/christian-aid-mission.jpeg",
+    "countries": ["Afeganistão"]
   }
 ]
