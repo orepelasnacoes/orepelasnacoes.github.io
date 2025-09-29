@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Albanian Evangelical Mission",
+    "url": "https://aemission.org/",
+    "logo": "https://orepelasnacoes.github.io/ministerios/albanian-evangelical-mission.jpg",
+    "countries": ["Albânia"]
+  },
+  {
+    "name": "Josiah Venture",
+    "url": "https://www.josiahventure.com/",
+    "logo": "https://orepelasnacoes.github.io/ministerios/josiah-venture.jpg",
+    "countries": ["Albânia"]
+  },
+  {
+    "name": "Operation Mobilization",
+    "url": "https://om.org/",
+    "logo": "https://orepelasnacoes.github.io/ministerios/operation-mobilization.jpg",
+    "countries": ["Albânia"]
+  },
+  {
+    "name": "YWAM Albania",
+    "url": "https://ywamalbania.com/",
+    "logo": "https://orepelasnacoes.github.io/ministerios/ywam-albania.jpg",
+    "countries": ["Albânia"]
+  },
+  {
+    "name": "Thrive Missions",
+    "url": "https://www.thrivemissions.org/",
+    "logo": "https://orepelasnacoes.github.io/ministerios/thrive-missions.jpg",
+    "countries": ["Albânia"]
+  },
+  {
+    "name": "Liebenzeller Mission",
+    "url": "https://www.liebenzell.org/",
+    "logo": "https://orepelasnacoes.github.io/ministerios/liebenzeller-mission.jpg",
+    "countries": ["Albânia"]
+  },
+  {
+    "name": "WEC International",
+    "url": "https://www.wecinternational.org/",
+    "logo": "https://orepelasnacoes.github.io/ministerios/wec-international.jpg",
+    "countries": ["Albânia"]
+  },
+  {
+    "name": "European Christian Mission",
+    "url": "https://www.ecmi.org/",
+    "logo": "https://orepelasnacoes.github.io/ministerios/european-christian-mission.jpg",
+    "countries": ["Albânia"]
+  }
+]
