@@ -237,4 +237,12 @@
     "alt": "International Mission Board logo",
     "countries": ["Angola"]
   }
+
+  {
+    "name": "Missão Vinde",
+    "url": "https://www.missaovinde.org/",
+    "logo": "https://orepelasnacoes.github.io/ministerios/missao-vinde.jpeg",
+    "alt": "Missão Vinde logo",
+    "countries": ["Anguila"]
+  }
 ]
