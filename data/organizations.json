@@ -3,204 +3,238 @@
     "name": "Barnabas Aid",
     "url": "https://www.barnabasaid.org/us/",
     "logo": "https://orepelasnacoes.github.io/ministerios/barnabas-aid.jpg",
+    "alt": "Barnabas Aid logo",
     "countries": ["Afeganistão"]
   },
   {
     "name": "Lumens of Truth",
     "url": "https://www.lumensoftruth.org/",
     "logo": "https://orepelasnacoes.github.io/ministerios/lumens-of-truth.jpg",
+    "alt": "Lumens of Truth logo",
     "countries": ["Afeganistão"]
   },
   {
     "name": "Mission Cry",
     "url": "https://missioncry.com/",
     "logo": "https://orepelasnacoes.github.io/ministerios/mission-cry.jpg",
+    "alt": "Mission Cry logo",
     "countries": ["Afeganistão"]
   },
   {
     "name": "Frontiers",
     "url": "https://frontiersusa.org/",
     "logo": "https://orepelasnacoes.github.io/ministerios/frontiers.jpg",
+    "alt": "Frontiers logo",
     "countries": ["Afeganistão"]
   },
   {
     "name": "Operation Mobilization",
     "url": "https://om.org/",
     "logo": "https://orepelasnacoes.github.io/ministerios/operation-mobilization.jpg",
+    "alt": "Operation Mobilization logo",
     "countries": ["Afeganistão","Albânia","Angola","África do Sul"]
   },
   {
     "name": "The Voice of the Martyrs",
     "url": "https://www.persecution.com/",
     "logo": "https://orepelasnacoes.github.io/ministerios/voice-of-martyrs.jpg",
+    "alt": "The Voice of the Martyrs logo",
     "countries": ["Afeganistão"]
   },
   {
     "name": "Portas Abertas",
     "url": "https://www.portasabertas.org.br/",
     "logo": "https://orepelasnacoes.github.io/ministerios/portas-abertas.jpg",
+    "alt": "Portas Abertas logo",
     "countries": ["Afeganistão"]
   },
   {
     "name": "Christian Aid Mission",
     "url": "https://www.christianaid.org/",
     "logo": "https://orepelasnacoes.github.io/ministerios/christian-aid-mission.jpeg",
+    "alt": "Christian Aid Mission logo",
     "countries": ["Afeganistão"]
   },
   {
     "name": "Africa Inland Mission",
     "url": "https://aimint.org/",
     "logo": "https://orepelasnacoes.github.io/ministerios/africa-inland-mission.jpg",
+    "alt": "Africa Inland Mission logo",
     "countries": ["África do Sul"]
   },
   {
     "name": "World of Life Missions",
     "url": "https://missions.wol.org/",
     "logo": "https://orepelasnacoes.github.io/ministerios/word-of-life-missions.jpg",
+    "alt": "World of Life Missions logo",
     "countries": ["África do Sul"]
   },
   {
     "name": "ABWE",
     "url": "https://abwe.org/",
     "logo": "https://orepelasnacoes.github.io/ministerios/ABWE.jpg",
+    "alt": "ABWE logo",
     "countries": ["África do Sul"]
   },
   {
     "name": "South African Christian Mission",
     "url": "https://sacmonline.org/",
     "logo": "https://orepelasnacoes.github.io/ministerios/south-african-christian-mission.jpg",
+    "alt": "South African Christian Mission logo",
     "countries": ["África do Sul"]
   },
   {
     "name": "Zema",
     "url": "https://zema.org/",
     "logo": "https://orepelasnacoes.github.io/ministerios/zema.jpg",
+    "alt": "Zema logo",
     "countries": ["África do Sul"]
   },
   {
     "name": "SIM",
     "url": "https://www.sim.org/",
     "logo": "https://orepelasnacoes.github.io/ministerios/sim.jpg",
+    "alt": "SIM logo",
     "countries": ["África do Sul","Angola"]
   },
   {
     "name": "Heartcry Missionary Society",
     "url": "https://heartcrymissionary.com/",
     "logo": "https://orepelasnacoes.github.io/ministerios/heartcry.jpeg",
+    "alt": "Heartcry Missionary Society logo",
     "countries": ["África do Sul"]
   },
   {
     "name": "Albanian Evangelical Mission",
     "url": "https://aemission.org/",
     "logo": "https://orepelasnacoes.github.io/ministerios/albanian-evangelical-mission.jpg",
+    "alt": "Albanian Evangelical Mission logo",
     "countries": ["Albânia"]
   },
   {
     "name": "Josiah Venture",
     "url": "https://www.josiahventure.com/",
     "logo": "https://orepelasnacoes.github.io/ministerios/josiah-venture.jpg",
+    "alt": "Josiah Venture logo",
     "countries": ["Albânia"]
   },
   {
     "name": "YWAM Albania",
     "url": "https://ywamalbania.com/",
     "logo": "https://orepelasnacoes.github.io/ministerios/ywam-albania.jpg",
+    "alt": "YWAM Albania logo",
     "countries": ["Albânia"]
   },
   {
     "name": "Thrive Missions",
     "url": "https://www.thrivemissions.org/",
     "logo": "https://orepelasnacoes.github.io/ministerios/thrive-missions.jpg",
+    "alt": "Thrive Missions logo",
     "countries": ["Albânia"]
   },
   {
     "name": "Liebenzeller Mission",
     "url": "https://www.liebenzell.org/",
     "logo": "https://orepelasnacoes.github.io/ministerios/liebenzeller-mission.jpg",
+    "alt": "Liebenzeller Mission logo",
     "countries": ["Albânia","Alemanha"]
   },
   {
     "name": "WEC International",
     "url": "https://www.wecinternational.org/",
     "logo": "https://orepelasnacoes.github.io/ministerios/wec-international.jpg",
+    "alt": "WEC International logo",
     "countries": ["Albânia"]
   },
   {
     "name": "European Christian Mission",
     "url": "https://www.ecmi.org/",
     "logo": "https://orepelasnacoes.github.io/ministerios/european-christian-mission.jpg",
+    "alt": "European Christian Mission logo",
     "countries": ["Albânia"]
   },
   {
     "name": "DMG interpersonal",
     "url": "https://www.dmgint.de/",
     "logo": "https://orepelasnacoes.github.io/ministerios/dmg-interpersonal.jpg",
+    "alt": "DMG interpersonal logo",
     "countries": ["Alemanha"]
   },
   {
     "name": "Allianz Mission",
     "url": "https://www.allianzmission.de/",
     "logo": "https://orepelasnacoes.github.io/ministerios/allianz-mission.jpg",
+    "alt": "Allianz Mission logo",
     "countries": ["Alemanha"]
   },
   {
     "name": "Gossner Mission",
     "url": "https://www.gossner-mission.de/",
     "logo": "https://orepelasnacoes.github.io/ministerios/gossner-mission.jpg",
+    "alt": "Gossner Mission logo",
     "countries": ["Alemanha"]
   },
   {
     "name": "Evangelical-Lutheran Mission in Lower Saxony (ELM)",
     "url": "https://www.elm-mission.net/",
     "logo": "https://orepelasnacoes.github.io/ministerios/evangelical-lutheran-mission-in-lower-saxony.jpg",
+    "alt": "Evangelical-Lutheran Mission in Lower Saxony (ELM) logo",
     "countries": ["Alemanha"]
   },
   {
     "name": "Wycliffe Germany",
     "url": "https://www.wycliffe.net/organisation/wycliff-germany/",
     "logo": "https://orepelasnacoes.github.io/ministerios/wycliffe-germany.jpg",
+    "alt": "Wycliffe Germany logo",
     "countries": ["Alemanha"]
   },
   {
     "name": "Missionswerk Neues Leben",
     "url": "https://neues-leben.de/",
     "logo": "https://orepelasnacoes.github.io/ministerios/missionswerk-neues-leben.jpg",
+    "alt": "Missionswerk Neues Leben logo",
     "countries": ["Alemanha"]
   },
   {
     "name": "Evangelical Mission in Solidarity (EMS)",
     "url": "https://ems-online.org",
     "logo": "https://orepelasnacoes.github.io/ministerios/evangelical-mission-in-solidarity.jpg",
+    "alt": "Evangelical Mission in Solidarity (EMS) logo",
     "countries": ["Alemanha"]
   },
   {
     "name": "YWAM",
     "url": "https://ywam.org/",
     "logo": "https://orepelasnacoes.github.io/ministerios/YWAM.jpg",
+    "alt": "YWAM logo",
     "countries": ["Angola"]
   },
   {
     "name": "Wycliffe Global Alliance",
     "url": "https://www.wycliffe.net/",
     "logo": "https://orepelasnacoes.github.io/ministerios/wycliffe-global-alliance.jpg",
+    "alt": "Wycliffe Global Alliance logo",
     "countries": ["Angola"]
   },
   {
     "name": "Junta de Missões Mundiais",
     "url": "https://missoesmundiais.com.br/",
     "logo": "https://orepelasnacoes.github.io/ministerios/jmm.jpg",
+    "alt": "Junta de Missões Mundiais logo",
     "countries": ["Angola"]
   },
   {
     "name": "MIAF / AIM Brasil – Missão para o Interior da África",
     "url": "https://sa.aimint.org/",
     "logo": "https://orepelasnacoes.github.io/ministerios/MIAF.jpg",
+    "alt": "MIAF / AIM Brasil – Missão para o Interior da África logo",
     "countries": ["Angola"]
   },
   {
     "name": "International Mission Board",
     "url": "https://www.imb.org/",
     "logo": "https://orepelasnacoes.github.io/ministerios/international-mission-board.jpg",
+    "alt": "International Mission Board logo",
     "countries": ["Angola"]
   }
 ]
