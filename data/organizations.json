@@ -228,14 +228,14 @@
     "url": "https://sa.aimint.org/",
     "logo": "https://orepelasnacoes.github.io/ministerios/MIAF.jpg",
     "alt": "MIAF / AIM Brasil – Missão para o Interior da África logo",
-    "countries": ["Angola"]
+    "countries": ["Angola", "Anguila"]
   },
   {
     "name": "International Mission Board",
     "url": "https://www.imb.org/",
     "logo": "https://orepelasnacoes.github.io/ministerios/international-mission-board.jpg",
     "alt": "International Mission Board logo",
-    "countries": ["Angola"]
+    "countries": ["Angola", "Anguila"]
   },
   {
     "name": "Missão Vinde",
