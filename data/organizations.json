@@ -67,7 +67,7 @@
     "url": "https://missions.wol.org/",
     "logo": "https://orepelasnacoes.github.io/ministerios/word-of-life-missions.jpg",
     "alt": "World of Life Missions logo",
-    "countries": ["África do Sul"]
+    "countries": ["África do Sul", "Anguila"]
   },
   {
     "name": "ABWE",
@@ -228,20 +228,20 @@
     "url": "https://sa.aimint.org/",
     "logo": "https://orepelasnacoes.github.io/ministerios/MIAF.jpg",
     "alt": "MIAF / AIM Brasil – Missão para o Interior da África logo",
-    "countries": ["Angola", "Anguila"]
+    "countries": ["Angola"]
   },
   {
     "name": "International Mission Board",
     "url": "https://www.imb.org/",
     "logo": "https://orepelasnacoes.github.io/ministerios/international-mission-board.jpg",
     "alt": "International Mission Board logo",
-    "countries": ["Angola", "Anguila"]
+    "countries": ["Angola"]
   },
   {
     "name": "Missão Vinde",
     "url": "https://www.missaovinde.org/",
     "logo": "https://orepelasnacoes.github.io/ministerios/missao-vinde.jpeg",
     "alt": "Missão Vinde logo",
-    "countries": ["Anguila"]
+    "countries": ["Brasil"]
   }
 ]
