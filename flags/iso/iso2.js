@@ -60,7 +60,7 @@ export const slugsISO2 = {
   "emirados-arabes-unidos": "ae",
   "equador": "ec",
   "eritreia": "er",
-  "eslovacia": "sk",
+  "eslovaquia": "sk",
   "eslovenia": "si",
   "espanha": "es",
   "essuatini": "sz",
