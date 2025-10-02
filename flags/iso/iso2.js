@@ -76,7 +76,7 @@ export const slugsISO2 = {
   "gana": "gh",
   "georgia": "ge",
   "granada": "gd",
-  "groelandia": "gl",
+  "groenlandia": "gl",
   "grecia": "gr",
   "guadalupe": "gp",
   "guam": "gu",
