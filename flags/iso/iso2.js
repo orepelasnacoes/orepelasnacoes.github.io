@@ -34,7 +34,7 @@ export const slugsISO2 = {
   "belgica": "be",
   "bosnia-e-herzegovina": "ba",
   "cabo-verde": "cv",
-  "camaeroes": "cm",
+  "camaroes": "cm",
   "camboja": "kh",
   "canada": "ca",
   "catar": "qa",
