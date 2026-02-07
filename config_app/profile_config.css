@@ -1,0 +1,26 @@
+.item #main-wrapper {
+  width: 100%;
+  padding: 0;
+}
+
+.item #sidebar-wrapper,
+body {
+  background: #3a3e38;
+}
+
+#content-wrapper>.container {
+  width: 100%;
+}
+
+.static_page .item-post .post-body {
+  padding: 0;
+}
+
+.item #content-wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+#intro-author-wrap:after {
+  background-color: rgb(0 0 0 / 50%);
+}
