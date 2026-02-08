@@ -1,12 +1,25 @@
-// config_app/prayer_drawer.js
-import { doc, getDoc, setDoc, updateDoc } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-firestore.js";
-import { initFirebase } from "./firebase_config.js";
+// config_app/prayer_drawer.module.js
+
+import { initializeApp } from "https://www.gstatic.com/firebasejs/12.0.0/firebase-app.js";
+import { getFirestore, doc, getDoc, setDoc, updateDoc} from "https://www.gstatic.com/firebasejs/12.0.0/firebase-firestore.js";
 
 document.addEventListener('DOMContentLoaded', async () => {
 
-  const db = initFirebase();
+  const firebaseConfig = {
+    apiKey: "AIzaSyAgBbByAt6rIHdGXFLzP4ouAU6v046EjjM",
+    authDomain: "orepelasnacoes-7c37a.firebaseapp.com",
+    projectId: "orepelasnacoes-7c37a",
+    storageBucket: "orepelasnacoes-7c37a.appspot.com",
+    messagingSenderId: "1075211973772",
+    appId: "1:1075211973772:web:3a142ceb5f3e4a562db7a9"
+  };
 
-  /* --- elementos ------------------------------------------------ */
+  const app = initializeApp(firebaseConfig);
+  const db = getFirestore(app);
+
+  /* ----------------------------------------------------------------
+   * Elementos
+   * -------------------------------------------------------------- */
   const btnOpen = document.getElementById('prayerDrawer-button');
   const drawer = document.getElementById('prayerDrawer-panel');
   const btnClose = document.getElementById('prayerDrawer-close');
@@ -18,9 +31,12 @@ document.addEventListener('DOMContentLoaded', async () => {
   const historyBox = document.getElementById('prayerDrawer-history');
   const countryList = document.getElementById('prayerDrawer-countryList');
 
+  // Se a página não tiver drawer, sai silenciosamente
   if (!btnOpen || !drawer || !btnPray) return;
 
-  /* --- datas / slug --------------------------------------------- */
+  /* ----------------------------------------------------------------
+   * Datas / contexto
+   * -------------------------------------------------------------- */
   const now = new Date();
   const brasilia = new Date(now.getTime() - now.getTimezoneOffset() * 60000);
   const today = brasilia.toISOString().split('T')[0];
@@ -35,6 +51,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   const jaOrouHoje = localStorage.getItem(storageKey);
 
+  /* ----------------------------------------------------------------
+   * Estado inicial
+   * -------------------------------------------------------------- */
   if (!jaOrouHoje) {
     btnOpen.classList.add('pulse-active');
   } else {
@@ -46,7 +65,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     mostrarHistorico();
   }
 
-  /* --- drawer --------------------------------------------------- */
+  /* ----------------------------------------------------------------
+   * Drawer UI
+   * -------------------------------------------------------------- */
   function fecharDrawer() {
     drawer.classList.remove('open');
     backdrop.classList.remove('active');
@@ -64,11 +85,12 @@ document.addEventListener('DOMContentLoaded', async () => {
   btnClose.onclick = fecharDrawer;
   backdrop.onclick = fecharDrawer;
 
-  /* --- firestore ----------------------------------------------- */
+  /* ----------------------------------------------------------------
+   * Firestore
+   * -------------------------------------------------------------- */
   async function mostrarContagem() {
     const ref = doc(db, 'oracoes', docId);
     const snap = await getDoc(ref);
-
     if (!snap.exists()) return;
 
     const total = Object.values(snap.data())
@@ -106,6 +128,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     verse.style.display = 'block';
   };
 
+  /* ----------------------------------------------------------------
+   * Histórico local
+   * -------------------------------------------------------------- */
   function mostrarHistorico() {
     const key = `historico_oracoes_${anoMes}`;
     const historico = JSON.parse(localStorage.getItem(key)) || [];
@@ -114,7 +139,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     countryList.innerHTML = '';
     historico.reverse().forEach(p => {
       const li = document.createElement('li');
-      li.innerHTML = `<a href="/${p.slug}"><img src="${p.bandeira}"><span>${p.nome}</span></a>`;
+      li.innerHTML = `
+        <a href="/${p.slug}">
+          <img src="${p.bandeira}" alt="Bandeira de ${p.nome}">
+          <span>${p.nome}</span>
+        </a>`;
       countryList.appendChild(li);
     });
 
