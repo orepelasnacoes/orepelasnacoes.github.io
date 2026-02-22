@@ -1,12 +1,8 @@
-document.addEventListener("DOMContentLoaded", function () {
-
-  const paisNomeBase = document.getElementById("pais-nome");
-  if (!paisNomeBase) return;
-
+const paisNomeBase = document.getElementById("pais-nome");
+if (paisNomeBase) {
   const nomePais = paisNomeBase.textContent.trim();
-  if (!nomePais) return;
-
-  document.querySelectorAll(".paisnome-js")
-    .forEach(el => el.textContent = nomePais);
-
-});
+  if (nomePais) {
+    document.querySelectorAll(".paisnome-js")
+      .forEach(el => el.textContent = nomePais);
+  }
+}
