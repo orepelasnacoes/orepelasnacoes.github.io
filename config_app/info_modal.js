@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function () {
+
   /* --- controle de scroll -----------------------------------------*/
   function bloquearScroll() {
     document.documentElement.style.overflow = 'hidden';
@@ -16,24 +18,37 @@
 
   /* --- abre/fecha -------------------------------------------------*/
   function openModal(id) {
-    document.getElementById(id).style.display = 'flex';
-    bloquearScroll();
+    const modal = document.getElementById(id);
+    if (modal) {
+      modal.style.display = 'flex';
+      bloquearScroll();
+    }
   }
 
   function closeModal(id) {
-    document.getElementById(id).style.display = 'none';
-    if (!algumModalAberto()) liberarScroll();
+    const modal = document.getElementById(id);
+    if (modal) {
+      modal.style.display = 'none';
+      if (!algumModalAberto()) liberarScroll();
+    }
   }
 
-  document.getElementById('btn-detalhes').onclick = e => {
-    e.preventDefault();
-    openModal('modal-detalhes');
-  };
+  const btnDetalhes = document.getElementById('btn-detalhes');
+  const btnCompartilhar = document.getElementById('btn-compartilhar');
 
-  document.getElementById('btn-compartilhar').onclick = e => {
-    e.preventDefault();
-    openModal('modal-share');
-  };
+  if (btnDetalhes) {
+    btnDetalhes.onclick = e => {
+      e.preventDefault();
+      openModal('modal-detalhes');
+    };
+  }
+
+  if (btnCompartilhar) {
+    btnCompartilhar.onclick = e => {
+      e.preventDefault();
+      openModal('modal-share');
+    };
+  }
 
   document.querySelectorAll('.perfil-modal-close').forEach(el => {
     el.onclick = () => closeModal(el.dataset.close);
@@ -45,18 +60,33 @@
     };
   });
 
+  /* --- 🔹 TÍTULO DINÂMICO DO MODAL -------------------------------*/
+  const paisNome = document.getElementById("pais-nome")?.textContent.trim();
+  const tituloModal = document.querySelector("#modal-detalhes h2");
+
+  if (paisNome && tituloModal) {
+    tituloModal.textContent = `Sobre o ${paisNome}`;
+  }
+
   /* --- links de compartilhamento ---------------------------------*/
-// Pega partes do texto
-const prayFor = document.getElementById("prayFor").textContent.trim();
-const country = document.getElementById("pais-nome").textContent.trim();
-const pageUrl = window.location.href;
+  const prayFor = document.getElementById("prayFor")?.textContent.trim();
+  const pageUrl = window.location.href;
 
-// Monta o texto completo
-const shareText = `${prayFor} ${country} | Para saber mais, acesse: ${pageUrl}`;
-const encodedText = encodeURIComponent(shareText);
+  if (prayFor && paisNome) {
+    const shareText = `${prayFor} ${paisNome} | Para saber mais, acesse: ${pageUrl}`;
+    const encodedText = encodeURIComponent(shareText);
 
-// Links de compartilhamento
-document.getElementById('share-whatsapp').href = `https://wa.me/?text=${encodedText}`;
-document.getElementById('share-facebook').href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(pageUrl)}&quote=${encodedText}`;
-document.getElementById('share-twitter').href = `https://x.com/intent/tweet?text=${encodedText}`;
-document.getElementById('share-telegram').href = `https://t.me/share/url?url=${encodeURIComponent(pageUrl)}&text=${encodedText}`;
+    document.getElementById('share-whatsapp')?.setAttribute('href',
+      `https://wa.me/?text=${encodedText}`);
+
+    document.getElementById('share-facebook')?.setAttribute('href',
+      `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(pageUrl)}&quote=${encodedText}`);
+
+    document.getElementById('share-twitter')?.setAttribute('href',
+      `https://x.com/intent/tweet?text=${encodedText}`);
+
+    document.getElementById('share-telegram')?.setAttribute('href',
+      `https://t.me/share/url?url=${encodeURIComponent(pageUrl)}&text=${encodedText}`);
+  }
+
+});
